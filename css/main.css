@@ -130,8 +130,10 @@ h2, .h02 {
 	line-height: 1.25;
 }
 h3, .h03 {
-	font-size: 2rem;
-	line-height: 1.5;
+	font-size: 2.8rem;
+    line-height: 1.5;
+    margin-left: 172px;
+    margin-right: -295px;
 }
 h4, .h04 {
 	font-size: 1.7rem;
@@ -941,7 +943,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  */
 .skill-bars {
 	list-style: none;
-	margin: 6rem 0 3rem;
+    margin: 6rem 0 3rem;
+    margin-left: 172px;
+    margin-right: -295px;
 }
 .skill-bars li {
 	height: .6rem;
