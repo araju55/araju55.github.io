@@ -19,15 +19,12 @@
  *  11. about
  *  12. resume
  *  13. portfolio
- *  14. call-to-action section
- *  15. services
- *  16. stats
- *  17. contact
- *  18. footer
+ *  14. stats
+ *  15. contact
+ *  16. footer
  *
  * =================================================================== 
  */
-
 
 /** 
  * ===================================================================
@@ -70,7 +67,7 @@ html, body {
 	height: 100%;
 }
 body {
-	background: #151515;
+	background: #f2f2f2;
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
@@ -102,7 +99,7 @@ a:hover, a:focus, a:active {
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "poppins-semibold", sans-serif;
-	color: #313131;
+	color: #00ABA9;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -130,8 +127,8 @@ h2, .h02 {
 	line-height: 1.25;
 }
 h3, .h03 {
-	font-size: 2.0rem;
-    line-height: 1.5;
+	font-size: 2rem;
+	line-height: 1.5;
 }
 h4, .h04 {
 	font-size: 1.7rem;
@@ -156,7 +153,7 @@ p.lead {
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #888888;
+	color: #808080;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -694,7 +691,7 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-	background: #313131;
+	background: #00ABA9;
 	color: #FFFFFF;
 }
 .button.button-primary:hover,
@@ -726,7 +723,7 @@ button.large, .button.large {
 }
 button.stroke, .button.stroke {
 	background: transparent !important;
-	border: 3px solid #313131;
+	border: 3px solid #00ABA9;
 	line-height: 4.8rem;
 }
 button.stroke.medium, .button.stroke.medium {
@@ -854,10 +851,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * markup:
  *
  * <aside class="pull-quote">
- *		<blockquote>
- *			<p></p>
- *		</blockquote>
- *	</aside>
+ * <blockquote>
+ * <p></p>
+ * </blockquote>
+ * </aside>
  *
  * --------------------------------------------------------------------- 
  */
@@ -941,7 +938,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  */
 .skill-bars {
 	list-style: none;
-    margin: 6rem 0 3rem;
+	margin: 6rem 0 3rem;
 }
 .skill-bars li {
 	height: .6rem;
@@ -963,7 +960,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	line-height: 2.4rem;
 }
 .skill-bars li .progress {
-	background: #313131;
+	background: #00ABA9;
 	position: relative;
 	height: 100%;
 }
@@ -1095,7 +1092,7 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
+	background: #00ABA9;
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
@@ -1119,7 +1116,7 @@ header .logo a {
 	color: transparent;
 	width: 92px;
 	height: 15px;
-	background: url("a.png") no-repeat center;
+	background: url("../images/logo.png") no-repeat center;
 	background-size: 92px 15px;
 }
 
@@ -1138,7 +1135,7 @@ header .logo a {
 }
 .menu-toggle span {
 	display: block;
-	background-color: #00ABA9;
+	background-color: #f2f2f2;
 	width: 24px;
 	height: 3px;
 	margin-top: -1.5px;
@@ -1196,7 +1193,7 @@ header .logo a {
 	background-color: rgba(255, 0, 119, 0);
 }
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
-	background-color: #00aba9;
+	background-color: #f2f2f2;
 	-moz-transition-delay: 0s, 0.2s;
 	-o-transition-delay: 0s, 0.2s;
 	-webkit-transition-delay: 0s, 0.2s;
@@ -1229,7 +1226,7 @@ header .logo a {
 
 /* dropdown nav */
 .main-navigation {
-	background: #000000;
+	background: #00ABA9;
 	padding: 24px 30px 42px;
 	margin: 0;
 	width: 100%;
@@ -1252,12 +1249,12 @@ header .logo a {
 	border: none;
 }
 .main-navigation li a:hover {
-	color: #00ABA9;
+	color: #f2f2f2;
 	padding-left: 1rem;
 }
 .main-navigation li.current > a {
 	background: none;
-	color: #00ABA9;
+	color: #f2f2f2;
 }
 
 /**
@@ -1312,7 +1309,7 @@ header .logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #111111;
+	background: #000000;
 	opacity: .85;
 }
 
@@ -1337,7 +1334,7 @@ header .logo a {
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .intro-content h5 {
-	color: #00aba9;
+	color: #00ABA9;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -1384,7 +1381,7 @@ header .logo a {
 	letter-spacing: .25rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	border-color: #cc005f;
+	border-color: #00ABA9;
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -1416,7 +1413,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #cc005f;
+	color: #00ABA9;
 }
 
 /**
@@ -1504,8 +1501,8 @@ header .logo a {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 14rem;
-	width: 11rem;
+	height: 9rem;
+	width: 9rem;
 	border-radius: 50%;
 	margin: .9rem 0 0 0;
 	float: left;
@@ -1523,7 +1520,7 @@ header .logo a {
 }
 .about-content h3 {
 	font-family: "poppins-bold", sans-serif;
-	font-size: 2.0rem;
+	font-size: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
@@ -1658,7 +1655,7 @@ header .logo a {
 	height: 4.8rem;
 	width: 4.8rem;
 	line-height: 4.8rem;
-	background: #313131;
+	background: #00ABA9;
 	border-radius: 50%;
 	text-align: center;
 	color: #FFFFFF;
@@ -2020,33 +2017,6 @@ header .logo a {
 	transform: translateY(-100%);
 }
 
-/** 
- * ===================================================================
- * 14. call-to-action section - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
-#cta {
-	padding-top: 10.2rem;
-	padding-bottom: 9rem;
-	text-align: center;
-}
-#cta p.lead {
-	color: #6e6e6e;
-}
-.cta-content {
-	max-width: 640px;
-}
-.cta-thumb {
-	display: inline-block;
-	margin-bottom: 1.2rem;
-}
-.cta-thumb img {
-	height: 7.8rem;
-	width: 7.8rem;
-	border-radius: 50%;
-}
-
 /**
  * section ads - (_layout.scss)
  * ------------------------------------------------------------------- 
@@ -2072,183 +2042,6 @@ header .logo a {
 .section-ads span {
 	color: #3F0D39;
 }
-
-/**
- * responsive:
- * cta
- * -------------------------------------------------------------------
- */
-@media only screen and (max-width:650px) {
-	.cta-content {
-		max-width: 650px;
-	}
-	.cta-content h2 {
-		font-size: 2.4rem;
-	}
-}
-
-
-/** 
- * ===================================================================
- * 15. services - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
-#services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	padding-top: 12rem;
-	padding-bottom: 12rem;
-	color: white;
-	position: relative;
-}
-#services .overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #151515;
-	opacity: .9;
-}
-
-#services .section-intro {
-	margin-bottom: 1.8rem;
-}
-
-#services .section-intro h1 {
-	color: rgb(255, 255, 255);
-}
-#services .section-intro h5 {
-	color: #00ABA9;
-}
-#services .section-intro p {
-	color: rgba(255, 255, 255, 0.7);
-}
-
-#mediaf {
-	background: #f2f2f2;
-	-webkit-background-size: cover;	
-        -moz-background-size: cover;	
-        background-size: cover;
-        padding-top: 8rem;
-        padding-bottom: 5rem;
-        color: white;
-        position: relative;
-}
-#mediaf .overlay {	
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #151515;
-        opacity: .9;	
-}
-		
-#mediaf  img {
-        height: 100px;
-        position: relative;
-        padding-bottom: 3rem;
-}
-
-#mediaf .section-intro {
-        margin-bottom: 1.8rem;	
-}
-	
-#mediaf .section-intro h1 {
-        color: white;	
-}
-	
-#mediaf .section-intro h5 {
-        color: #00ABA9;	
-}
-	
-#mediaf .section-intro p {
-        color: rgba(255, 255, 255, 0.7);
-
-.mediaf-content {	
-        max-width: 1200px;	
-}
-	
-.mediaf-list {	
-        margin-top: 1.2rem;	
-        text-align: center;
-}
-	
-.mediaf-list .service {
-        margin-bottom: 1.2rem;
-        padding: 0 30px;
-}
-
-.mediaf-list .icon {	
-        display: inline-block;
-        margin-bottom: 2.1rem;
-}
-
-.mediaf-list .icon i {	
-        font-size: 5.4rem;
-        color: #00ABA9;
-}
-
-.mediaf-list h3 {	
-        color: #FFFFFF;
-}
-
-.mediaf-list .desc {	
-        color: rgba(255, 255, 255, 0.6);
-}
-
-.services-content {
-	max-width: 1200px;
-}
-.services-list {
-	margin-top: 1.2rem;
-	text-align: center;
-}
-.services-list .service {
-	margin-bottom: 1.2rem;
-	padding: 0 30px;
-}
-.services-list .icon {
-	display: inline-block;
-	margin-bottom: 2.1rem;
-}
-.services-list .icon i {
-	font-size: 5.4rem;
-	color: #00ABA9;
-}
-.services-list h3 {
-	color: #FFFFFF;
-}
-.services-list .desc {
-	color: rgba(255, 255, 255, 0.6);
-}
-
-/* pagination */
-.owl-pagination {
-	text-align: center;
-	width: 100%;
-	margin: .6rem 0 0;
-}
-.owl-theme .owl-controls .owl-page {
-	display: inline-block;
-}
-.owl-theme .owl-controls .owl-page span {
-	display: block;
-	width: 1.2rem;
-	height: 1.2rem;
-	margin: 1.2rem .8rem 0 .8rem;
-	border-radius: 50%;
-	display: inline-block;
-	background: #FFFFFF;
-}
-.owl-theme .owl-controls .owl-page.active span {
-	background: #00ABA9;
-}
-
 
 /** 
  * ===================================================================
@@ -2324,18 +2117,18 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #contact {
-	background: #f2f2f2;
+	background: #ebebeb;
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
 #contact .section-intro h1 {
-	color: white;
+	color: grey;
 }
 #contact .section-intro h5 {
 	color: #00ABA9;
 }
 #contact .section-intro p {
-	color: rgba(255, 255, 255, 0.7);
+	color: rgba(128, 128, 128);
 }
 
 /* contact form */
@@ -2402,10 +2195,10 @@ header .logo a {
 #contact input[type="email"],
 #contact textarea {
 	width: 100%;
-	color: rgba(255, 255, 255, 0.7);
+	color: rgba(0, 171, 169);
 	margin-bottom: 0;
 	border: none;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgba(0, 171, 169);
 }
 #contact input[type="text"],
 #contact input[type="password"],
@@ -2416,8 +2209,8 @@ header .logo a {
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-	border-color: #00ABA9;
-	color: #FFFFFF;
+	border-color: #00aba9;
+	color: #00ABA9;
 }
 #contact textarea {
 	min-height: 20rem;
@@ -2425,7 +2218,7 @@ header .logo a {
 }
 #contact textarea:focus {
 	border-color: #00ABA9;
-	color: #FFFFFF;
+	color: #00ABA9;
 }
 #contact button.submitform {
 	font-size: 1.5rem;
@@ -2440,7 +2233,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-	background: #cc005f;
+	background: #00ABA9;
 }
 #message-warning, #message-success {
 	display: none;
@@ -2451,7 +2244,7 @@ header .logo a {
 	width: 100%;
 }
 #message-warning {
-	color: #fa0003;
+	color: #00ABA9;
 }
 #message-success {
 	color: #00ABA9;
@@ -2496,7 +2289,7 @@ header .logo a {
 }
 .contact-info .icon i {
 	font-size: 4.2rem;
-	color: #FFFFFF;
+	color: #00ABA9;
 }
 .contact-info h5 {
 	color: #00ABA9;
@@ -2652,7 +2445,7 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #00aba9;
+	background: #00ABA9;
 	color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase;
