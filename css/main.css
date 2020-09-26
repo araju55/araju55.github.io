@@ -942,8 +942,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars {
 	list-style: none;
     margin: 6rem 0 3rem;
-    margin-left: 172px;
-    margin-right: -295px;
 }
 .skill-bars li {
 	height: .6rem;
@@ -1118,7 +1116,7 @@ header .logo a {
 	border: none;
 	font: 0/0 a;
 	text-shadow: none;
-	color: white;
+	color: transparent;
 	width: 92px;
 	height: 15px;
 	background: url("a.png") no-repeat center;
@@ -1376,7 +1374,7 @@ header .logo a {
 }
 .intro-content .button {
 	color: #FFFFFF !important;
-	border-color: rgba(0, 171, 269);
+	border-color: rgba(0, 171, 169);
 	height: 6rem !important;
 	line-height: 5.4rem !important;
 	padding: 0 3.5rem 0 3rem !important;
@@ -2121,7 +2119,7 @@ header .logo a {
 }
 
 #services .section-intro h1 {
-	color: white;
+	color: rgb(255, 255, 255);
 }
 #services .section-intro h5 {
 	color: #00ABA9;
@@ -2129,6 +2127,80 @@ header .logo a {
 #services .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
 }
+
+#mediaf {
+	background: #f2f2f2;
+	-webkit-background-size: cover;	
+        -moz-background-size: cover;	
+        background-size: cover;
+        padding-top: 8rem;
+        padding-bottom: 5rem;
+        color: white;
+        position: relative;
+}
+#mediaf .overlay {	
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #151515;
+        opacity: .9;	
+}
+		
+#mediaf  img {
+        height: 100px;
+        position: relative;
+        padding-bottom: 3rem;
+}
+
+#mediaf .section-intro {
+        margin-bottom: 1.8rem;	
+}
+	
+#mediaf .section-intro h1 {
+        color: white;	
+}
+	
+#mediaf .section-intro h5 {
+        color: #00ABA9;	
+}
+	
+#mediaf .section-intro p {
+        color: rgba(255, 255, 255, 0.7);
+
+.mediaf-content {	
+        max-width: 1200px;	
+}
+	
+.mediaf-list {	
+        margin-top: 1.2rem;	
+        text-align: center;
+}
+	
+.mediaf-list .service {
+        margin-bottom: 1.2rem;
+        padding: 0 30px;
+}
+
+.mediaf-list .icon {	
+        display: inline-block;
+        margin-bottom: 2.1rem;
+}
+
+.mediaf-list .icon i {	
+        font-size: 5.4rem;
+        color: #00ABA9;
+}
+
+.mediaf-list h3 {	
+        color: #FFFFFF;
+}
+
+.mediaf-list .desc {	
+        color: rgba(255, 255, 255, 0.6);
+}
+
 .services-content {
 	max-width: 1200px;
 }
