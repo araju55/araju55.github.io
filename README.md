@@ -2,5 +2,4 @@
 
 # Github Website - Personal Portfolio
 
-Welcome to my site. 
-Please feel free to look around.
+Welcome.
