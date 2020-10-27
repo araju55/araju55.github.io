@@ -14,18 +14,13 @@ help stop the spread of the virus in public areas.
 
 ***Interview Questions***
 
--   How long does the status stay in Amber or is there a particular
-    > criteria for holders in those statuses before it can be changed?
-    > Does the status reset to Green after the number of days in
-    > self-isolation?
+-   How long does the status stay in Amber or is there a particular criteria for holders in those statuses before it can be changed? Does the status reset to Green after the number of days in self-isolation?
 
 <!-- -->
 
--   How is the overstay being tracked? Is this based on the time in
-    > between check in and check out?
+-   How is the overstay being tracked? Is this based on the time inbetween check in and check out?
 
--   When a Crownpass Holder receives an social distancing violation
-    > order, are they expected to self-isolate or get a test (both)?
+-   When a Crownpass Holder receives an social distancing violation order, are they expected to self-isolate or get a test (both)?
 
 ***Interview Plan***
 
